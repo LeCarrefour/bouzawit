@@ -1,24 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-  <a href="index.html" class="button">رجوع</a> <br>
+<html>
 <head>
+<style>
+body {
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercices</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <img src="images/mathématiques.png" width="70%" height="400" align="center">
+  background-color:#00CED1 ;
+}
 
-  <hr>
-  <div id="result">
-  </div>
+.button {
+  background-color: tomato;
+  border: none;
+  color: green;
+  padding: 30px 44px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor:alias;
+}
 
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: white;
+  font-weight: bolder;
+  font-size:40px;
+  float: left;
+  padding: 50px 70px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 10px solid deeppink;
+  margin: 0 20px;
+}
+
+.pagination a.active {
+  background-color: tomato;
+  color: white;
+  border: 10px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color:#B22222;}
+</style>
 </head>
+<body>
 
-<body style="background-color:powderblue;">
-<a href="limites.html">Limites</a> <br>
 
+
+<div class="center">
+  <div class="pagination">
+  <a href="index.html">Home</a>
+  <a href="PDF/limite d'une suite.pdf">Limites</a>
+  <a href="PDF/limite suite2.pdf">Limites(2)</a>
+  <a href="PDF/Rolle et TAF maarifa.pdf">Rolle et TAF</a>
+
+
+
+
+  </div>
+  <div class="center">
+    <div class="pagination">
+
+    <a href="PDF/ds1 2022 marifa.pdf">Devoir 1</a>
+    <a href="PDF/ds2 maar2021 2.pdf">Devoir 2</a>
+
+    </div>
+</div>
+<a href="index.html" class="button">Back</a>
 </body>
-
-  <a href="index.html" class="button">رجوع</a>
 </html>
